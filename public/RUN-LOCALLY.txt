@@ -5,6 +5,10 @@ WHAT YOU NEED
 - Node.js 22.13 or newer: https://nodejs.org/
 - Windows PowerShell, macOS Terminal, or a Linux terminal
 
+DO I NEED TO DO ANYTHING?
+No. The live site is deployed and the code is already saved in both GitHub
+repositories. Continue only if you want a separate local copy on your computer.
+
 STEPS
 1. Clone the public repository:
 

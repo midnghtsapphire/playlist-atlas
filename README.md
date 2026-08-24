@@ -1,9 +1,9 @@
 # Million+ Playlist Atlas
 
-
 <!-- AUTO-PACKAGE-BADGES:START -->
 
 <!-- AUTO-PACKAGE-BADGES:END -->
+
 A searchable global playlist-intelligence map with dated audience metrics,
 normalized geography, platform evidence labels, CSV export, and a D1-backed API.
 
@@ -11,6 +11,12 @@ normalized geography, platform evidence labels, CSV export, and a D1-backed API.
 
 - Public primary: [midnghtsapphire/playlist-atlas](https://github.com/midnghtsapphire/playlist-atlas)
 - Private enterprise mirror: [Freedom-Angel-Corp/playlist-atlas](https://github.com/Freedom-Angel-Corp/playlist-atlas)
+
+## Do I need to do anything?
+
+No. The live site is deployed and the code is saved in both repositories. The
+local instructions below are optional and only needed when you want to run a
+separate copy on your own computer.
 
 ## Run Locally
 

@@ -242,6 +242,7 @@ export default function PlaylistAtlas() {
         <section className="run-modal" role="dialog" aria-modal="true" aria-labelledby="run-title" onMouseDown={(event) => event.stopPropagation()}>
           <div className="modal-heading"><div><p className="eyebrow">Keep your own copy</p><h2 id="run-title">Run it locally</h2></div><button aria-label="Close local instructions" onClick={() => setRunOpen(false)}><Icon name="close"/></button></div>
           <p className="run-intro">Clone the public repository or download the complete source ZIP, then run two commands. Your saved filters stay in your browser; the playlist database and source code stay in your project.</p>
+          <div className="action-status"><strong>Do I need to do anything?</strong><span>No. The live site is deployed and the code is already saved in both GitHub repositories. Use the steps below only if you want a separate copy on your computer.</span></div>
           <div className="run-actions"><a className="run-primary" href="https://github.com/midnghtsapphire/playlist-atlas" target="_blank" rel="noreferrer"><Icon name="repository"/>View GitHub repository</a><a className="run-secondary" href="/million-playlist-atlas-source.zip" download><Icon name="download"/>Download source ZIP</a><button className="run-secondary" onClick={copyLocalCommands}><Icon name="copy"/>Copy commands</button></div>
           <ol className="run-steps">
             <li><span>01</span><div><strong>Install Node.js 22 or newer</strong><small>Windows, macOS, or Linux all work.</small></div></li>

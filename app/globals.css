@@ -177,6 +177,9 @@ footer span:first-child { color: #c9d2d9; font-weight: 800; }
 .run-modal { width: min(720px, 100%); max-height: calc(100vh - 40px); overflow: auto; background: var(--paper); border-top: 7px solid var(--mint); padding: 30px; box-shadow: 0 30px 90px rgba(0,0,0,.35); }
 .run-modal .modal-heading h2 { font-size: clamp(36px, 6vw, 52px); }
 .run-intro { color: #52616a; max-width: 600px; font-size: 13px; line-height: 1.65; }
+.action-status { display: flex; flex-direction: column; gap: 5px; margin-top: 16px; padding: 14px 16px; background: #e0eee9; border-left: 3px solid #179a73; }
+.action-status strong { color: #166a53; font-size: 11px; }
+.action-status span { color: #3e5c53; font-size: 10px; line-height: 1.55; }
 .run-actions { display: flex; flex-wrap: wrap; gap: 10px; margin: 22px 0; }
 .run-primary, .run-secondary { min-height: 44px; display: inline-flex; align-items: center; justify-content: center; gap: 9px; padding: 0 16px; text-decoration: none; font-size: 11px; font-weight: 800; text-transform: uppercase; letter-spacing: .07em; }
 .run-primary { background: var(--ink); color: white; border: 1px solid var(--ink); }
