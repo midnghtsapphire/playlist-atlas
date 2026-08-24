@@ -1,5 +1,9 @@
 # Million+ Playlist Atlas
 
+
+<!-- AUTO-PACKAGE-BADGES:START -->
+
+<!-- AUTO-PACKAGE-BADGES:END -->
 A searchable global playlist-intelligence map with dated audience metrics,
 normalized geography, platform evidence labels, CSV export, and a D1-backed API.
 
