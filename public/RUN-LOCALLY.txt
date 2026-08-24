@@ -1,0 +1,40 @@
+MILLION+ PLAYLIST ATLAS — RUN LOCALLY
+=====================================
+
+WHAT YOU NEED
+- Node.js 22.13 or newer: https://nodejs.org/
+- Windows PowerShell, macOS Terminal, or a Linux terminal
+
+STEPS
+1. Clone the public repository:
+
+   git clone https://github.com/midnghtsapphire/playlist-atlas.git
+   cd playlist-atlas
+
+   Or download and unzip million-playlist-atlas-source.zip from the Run locally panel.
+2. Open PowerShell or Terminal inside the project folder.
+3. Run these commands:
+
+   npm install
+   npm run dev:local
+
+4. Open the local web address shown in the terminal.
+5. Press Ctrl+C in the terminal to stop the site.
+
+SAVE OPTIONS
+- Save view remembers the current filters on that browser and device.
+- Export CSV saves the currently filtered playlist records.
+- The source ZIP saves your own editable copy of the entire project.
+
+REPOSITORIES
+- Public primary: https://github.com/midnghtsapphire/playlist-atlas
+- Private enterprise mirror: https://github.com/Freedom-Angel-Corp/playlist-atlas
+
+DATABASE NOTE
+The interface includes starter data and will open without a local database.
+Database-backed imports require a local Cloudflare D1 development binding.
+The relational schema is in db/schema.ts and the SQL migration is in drizzle/.
+
+PRODUCTION BUILD
+   npm run build
+   npm run start:local

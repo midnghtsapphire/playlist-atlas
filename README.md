@@ -3,21 +3,33 @@
 A searchable global playlist-intelligence map with dated audience metrics,
 normalized geography, platform evidence labels, CSV export, and a D1-backed API.
 
+## Repositories
+
+- Public primary: [midnghtsapphire/playlist-atlas](https://github.com/midnghtsapphire/playlist-atlas)
+- Private enterprise mirror: [Freedom-Angel-Corp/playlist-atlas](https://github.com/Freedom-Angel-Corp/playlist-atlas)
+
 ## Run Locally
 
 ### Windows, macOS, or Linux
 
 1. Install [Node.js](https://nodejs.org/) 22.13 or newer.
-2. Download and unzip `million-playlist-atlas-source.zip`.
-3. Open PowerShell or Terminal inside the unzipped folder.
-4. Run:
+2. Clone the repository, or download and unzip `million-playlist-atlas-source.zip`.
+3. Open PowerShell or Terminal inside the project folder.
+4. If cloning, run:
+
+```sh
+git clone https://github.com/midnghtsapphire/playlist-atlas.git
+cd playlist-atlas
+```
+
+5. Install and start:
 
 ```sh
 npm install
 npm run dev:local
 ```
 
-5. Open the local address printed in the terminal. Press `Ctrl+C` to stop.
+6. Open the local address printed in the terminal. Press `Ctrl+C` to stop.
 
 The interface starts with a built-in evidence snapshot, so the map still opens
 when local D1 is not configured. To use the API with a writable local database,
